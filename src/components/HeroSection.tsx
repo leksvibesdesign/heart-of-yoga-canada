@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
@@ -8,36 +9,36 @@ const HeroSection = () => {
   };
 
   return (
-    <section id="home" className="pt-24 pb-12 sm:pt-28 sm:pb-16 px-4 sm:px-6">
-      <div className="container mx-auto max-w-6xl">
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center justify-center">
-          <div className="space-y-6 sm:space-y-8 animate-fade-in text-center lg:text-left">
-            <div className="space-y-3 sm:space-y-4">
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-playfair font-bold text-earth-brown leading-tight">
+    <section id="home" className="pt-32 pb-20 sm:pt-36 sm:pb-24 px-4 sm:px-6">
+      <div className="container mx-auto max-w-4xl">
+        <div className="text-center space-y-8 sm:space-y-12">
+          <div className="space-y-6 sm:space-y-8 animate-fade-in">
+            <div className="space-y-4 sm:space-y-6">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-playfair font-bold text-earth-brown leading-tight">
                 Yoga from the <span className="text-golden">Heart</span> Canada
               </h1>
-              <p className="text-lg sm:text-xl text-earth-brown/80 font-inter font-light leading-relaxed">
+              <p className="text-xl sm:text-2xl text-earth-brown/80 font-inter font-light leading-relaxed">
                 with Anne Parsonage
               </p>
             </div>
             
-            <p className="text-base sm:text-lg text-earth-brown/70 font-inter leading-relaxed max-w-lg mx-auto lg:mx-0">
+            <p className="text-lg sm:text-xl text-earth-brown/70 font-inter leading-relaxed max-w-2xl mx-auto">
               Discover inner peace through heart-centered yoga that combines ancient wisdom with modern understanding. Join our community of mindful practitioners in downtown Toronto.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button 
                 size="lg" 
-                className="gradient-golden text-white font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-full hover:shadow-xl transition-all duration-300 transform hover:scale-105 text-sm sm:text-base"
+                className="gradient-golden text-white font-semibold px-8 sm:px-10 py-4 sm:py-5 rounded-full hover:shadow-xl transition-all duration-300 transform hover:scale-105 text-base sm:text-lg"
                 onClick={() => scrollToSection('schedule')}
               >
                 Try a Class
-                <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
+                <ArrowRight className="ml-2 h-5 w-5 sm:h-6 sm:w-6" />
               </Button>
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="border-amber text-amber hover:bg-amber hover:text-white font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 text-sm sm:text-base"
+                className="border-amber text-amber hover:bg-amber hover:text-white font-semibold px-8 sm:px-10 py-4 sm:py-5 rounded-full transition-all duration-300 text-base sm:text-lg"
                 onClick={() => scrollToSection('schedule')}
               >
                 See Class Schedule
@@ -45,12 +46,12 @@ const HeroSection = () => {
             </div>
           </div>
           
-          <div className="relative order-first lg:order-last">
-            <div className="absolute inset-0 gradient-golden rounded-2xl sm:rounded-3xl blur-2xl sm:blur-3xl opacity-20 animate-float"></div>
+          <div className="relative mt-12 sm:mt-16">
+            <div className="absolute inset-0 gradient-golden rounded-3xl sm:rounded-[2rem] blur-3xl sm:blur-[4rem] opacity-20 animate-float"></div>
             <img 
               src="/lovable-uploads/00047610-16a8-4235-aa82-303fee71f7b2.png" 
               alt="Yoga practice in nature" 
-              className="relative rounded-2xl sm:rounded-3xl shadow-2xl w-full h-auto animate-fade-in"
+              className="relative rounded-3xl sm:rounded-[2rem] shadow-2xl w-full max-w-2xl mx-auto h-auto animate-fade-in"
             />
           </div>
         </div>
