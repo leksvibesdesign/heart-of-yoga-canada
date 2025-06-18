@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
@@ -11,7 +10,7 @@ const HeroSection = () => {
   return (
     <section id="home" className="pt-24 pb-12 sm:pt-28 sm:pb-16 px-4 sm:px-6">
       <div className="container mx-auto max-w-6xl">
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center justify-center">
           <div className="space-y-6 sm:space-y-8 animate-fade-in text-center lg:text-left">
             <div className="space-y-3 sm:space-y-4">
               <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-playfair font-bold text-earth-brown leading-tight">
